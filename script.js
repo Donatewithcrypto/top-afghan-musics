@@ -13,15 +13,15 @@ function showQR(type){
     let address="";
 
     if(type==="btc"){
-        address="bc1q0qacgswtxjkrtqmw7tpuj387el3r4lyj4s2mfz";
+        address="134d2BxANeKMKUivhXGPRh2YaJKvkgdmj7";
     }
 
     if(type==="eth"){
-        address="0xcb5a380102d49ad4a8af619c65c50d6a22c7b77c";
+        address="0x4aefad74f6048c4653c8a8d5937602a01c6cea72";
     }
 
     if(type==="usdt"){
-        address="0xcb5a380102d49ad4a8af619c65c50d6a22c7b77c";
+        address="0x4aefad74f6048c4653c8a8d5937602a01c6cea72";
     }
 
     const box=document.getElementById(type+"qr");
